@@ -74,123 +74,35 @@ public class DataRetrival extends javax.swing.JFrame
     GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
     jPanel1.setLayout(jPanel1Layout);
     jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGap(129, 129, 129).addComponent(jLabel1)).addGroup(jPanel1Layout.createSequentialGroup().addGap(28, 28, 28).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(Enter).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(Module, 0, 143, 32767).addComponent(Element, 0, -1, 32767).addComponent(EData))))).addContainerGap(184, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addComponent(jLabel1, -2, 30, -2).addGap(28, 28, 28).addComponent(Module, -2, -1, -2).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addComponent(Element, -2, -1, -2).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addComponent(EData, -2, -1, -2).addGap(18, 18, 18).addComponent(Enter).addContainerGap(-1, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     DRtable.setModel(new javax.swing.table.DefaultTableModel(new Object[][] { { null, null, null, null }, { null, null, null, null }, { null, null, null, null }, { null, null, null, null } }, new String[] { "Title 1", "Title 2", "Title 3", "Title 4" }));
-    
-
-
-
-
-
-
-
-
-
-    jScrollPane2.setViewportView(DRtable);
-    
+    jScrollPane2.setViewportView(DRtable);    
     View.setText("View");
     View.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(ActionEvent evt) {
         DataRetrival.this.ViewActionPerformed(evt);
-      }
-      
+      }      
     });
     Edit.setText("Edit");
     Edit.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(ActionEvent evt) {
         DataRetrival.this.EditActionPerformed(evt);
-      }
-      
+      }      
     });
     GroupLayout jPanel2Layout = new GroupLayout(jPanel2);
     jPanel2.setLayout(jPanel2Layout);
     jPanel2Layout.setHorizontalGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup().addContainerGap(18, 32767).addComponent(jScrollPane2, -2, -1, -2).addContainerGap()).addGroup(GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup().addGap(73, 73, 73).addComponent(View, -2, 112, -2).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(Edit, -2, 122, -2).addGap(50, 50, 50)));
-    
-
-
-
-
-
-
-
-
-
-
-
     jPanel2Layout.setVerticalGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel2Layout.createSequentialGroup().addGap(26, 26, 26).addComponent(jScrollPane2, -2, 85, -2).addGap(18, 18, 18).addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(View).addComponent(Edit)).addContainerGap(24, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
     Back.setText("Back");
     Back.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(ActionEvent evt) {
         DataRetrival.this.BackActionPerformed(evt);
-      }
-      
+      }      
     });
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
     layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(18, 18, 18).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jPanel1, -2, -1, -2).addComponent(jPanel2, -2, -1, -2).addComponent(Back, -2, 88, -2)).addContainerGap(-1, 32767)));
-    
-
-
-
-
-
-
-
-
     layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(21, 21, 21).addComponent(jPanel1, -2, -1, -2).addGap(18, 18, 18).addComponent(jPanel2, -1, -1, 32767).addGap(18, 18, 18).addComponent(Back).addContainerGap(27, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
     pack();
   }
   
@@ -212,11 +124,7 @@ public class DataRetrival extends javax.swing.JFrame
       case "DM Plant": case "Softening Plant":  while (rs.next())
         {
           String s = rs.getString("pf");
-          Element.addItem(s); continue;
-          
-
-
-
+          Element.addItem(s); continue;          
           Element.removeAllItems();
           String query2 = "SELECT * FROM data";
           java.sql.Statement stmt2 = conn.createStatement();
@@ -225,9 +133,6 @@ public class DataRetrival extends javax.swing.JFrame
           {
             s = rs2.getString("DM_plant");
             Element.addItem(s); continue;
-            
-
-
             Element.removeAllItems();
             String query3 = "SELECT * FROM data";
             java.sql.Statement stmt3 = conn.createStatement();
@@ -249,10 +154,8 @@ public class DataRetrival extends javax.swing.JFrame
   private void EnterActionPerformed(ActionEvent evt) {
     jPanel2.setVisible(true);
     String item = Module.getSelectedItem().toString();
-    String ele = Element.getSelectedItem().toString();
-    
+    String ele = Element.getSelectedItem().toString();    
     String in = EData.getText();
-    
     java.sql.PreparedStatement ps = null;
     if ("".equals(item))
     {
@@ -401,14 +304,11 @@ public class DataRetrival extends javax.swing.JFrame
         Pf_edit pe = new Pf_edit(value);
         pe.setVisible(true);
         break;
-      
-
       case "DM Plant": 
         setVisible(false);
         DMedit de = new DMedit(value);
         de.setVisible(true);
-        break;
-      
+        break;      
       case "Softening Plant": 
         setVisible(false);
         SP_edit sp = new SP_edit(value);
@@ -424,12 +324,6 @@ public class DataRetrival extends javax.swing.JFrame
     setVisible(false);
   }
   
-
-
-
-
-
-
   public static void main(String[] args)
   {
     try
@@ -444,8 +338,6 @@ public class DataRetrival extends javax.swing.JFrame
       java.util.logging.Logger.getLogger(DataRetrival.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     }
     
-
-
     java.awt.EventQueue.invokeLater(new Runnable()
     {
       public void run() {
