@@ -17,14 +17,6 @@ public class GFTank extends javax.swing.JFrame
     initComponents();
     setDefaultCloseOperation(2);
   }
-  
-
-
-
-
-
-
-
   private void initComponents()
   {
     jLabel1 = new JLabel();
@@ -36,30 +28,10 @@ public class GFTank extends javax.swing.JFrame
     
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
-    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addContainerGap(-1, 32767)));
-    
-
-
-
-
-
-    layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup().addContainerGap(-1, 32767).addComponent(jLabel1).addContainerGap()));
-    
-
-
-
-
-
-
+    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addContainerGap(-1, 32767)));    
+    layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup().addContainerGap(-1, 32767).addComponent(jLabel1).addContainerGap()));    
     pack();
-  }
-  
-
-
-
-
-
-
+  }  
   public static void main(String[] args)
   {
     try
@@ -80,8 +52,6 @@ public class GFTank extends javax.swing.JFrame
       Logger.getLogger(GFTank.class.getName()).log(Level.SEVERE, null, ex);
     }
     
-
-
     java.awt.EventQueue.invokeLater(new Runnable() {
       public void run() {
         new GFTank().setVisible(true);
