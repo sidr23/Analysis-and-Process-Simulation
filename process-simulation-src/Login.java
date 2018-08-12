@@ -22,13 +22,6 @@ public class Login extends javax.swing.JFrame implements java.awt.event.ActionLi
     initComponents();
   }
   
-
-
-
-
-
-
-
   private void initComponents()
   {
     jLabel1 = new JLabel();
@@ -67,56 +60,12 @@ public class Login extends javax.swing.JFrame implements java.awt.event.ActionLi
     Register.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(ActionEvent evt) {
         Login.this.RegisterActionPerformed(evt);
-      }
-      
+      }      
     });
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
-    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup().addContainerGap(-1, 32767).addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(layout.createSequentialGroup().addComponent(jLabel1, -2, 334, -2).addGap(36, 36, 36)).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING, false).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(jLabel3, -2, 86, -2).addComponent(jLabel2, -2, 86, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(password, -1, 134, 32767).addComponent(username))).addGroup(layout.createSequentialGroup().addGap(22, 22, 22).addComponent(Register).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, 32767).addComponent(Login, -2, 73, -2))).addGap(146, 146, 146)))));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(31, 31, 31).addComponent(jLabel1).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel2, -2, 28, -2).addComponent(username, -2, -1, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3, -2, 26, -2).addComponent(password, -2, -1, -2)).addGap(18, 18, 18).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(Login).addComponent(Register)).addContainerGap(187, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup().addContainerGap(-1, 32767).addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(layout.createSequentialGroup().addComponent(jLabel1, -2, 334, -2).addGap(36, 36, 36)).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING, false).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(jLabel3, -2, 86, -2).addComponent(jLabel2, -2, 86, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(password, -1, 134, 32767).addComponent(username))).addGroup(layout.createSequentialGroup().addGap(22, 22, 22).addComponent(Register).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, 32767).addComponent(Login, -2, 73, -2))).addGap(146, 146, 146)))));    
+    layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(31, 31, 31).addComponent(jLabel1).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel2, -2, 28, -2).addComponent(username, -2, -1, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3, -2, 26, -2).addComponent(password, -2, -1, -2)).addGap(18, 18, 18).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(Login).addComponent(Register)).addContainerGap(187, 32767)));    
     pack();
   }
   
@@ -172,9 +121,7 @@ public class Login extends javax.swing.JFrame implements java.awt.event.ActionLi
         else
         {
           javax.swing.JOptionPane.showMessageDialog(null, "Incorrect userid or password");
-        }
-        
-
+        }        
       }
       catch (ClassNotFoundException|java.sql.SQLException e)
       {
@@ -189,12 +136,6 @@ public class Login extends javax.swing.JFrame implements java.awt.event.ActionLi
     r.setVisible(true);
   }
   
-
-
-
-
-
-
   public static void main(String[] args)
   {
     try
@@ -209,8 +150,6 @@ public class Login extends javax.swing.JFrame implements java.awt.event.ActionLi
       java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     }
     
-
-
     java.awt.EventQueue.invokeLater(new Runnable()
     {
       public void run() {
@@ -219,15 +158,6 @@ public class Login extends javax.swing.JFrame implements java.awt.event.ActionLi
     });
   }
   
-
-
-
-
-
-
-
-
-
   public void actionPerformed(ActionEvent e)
   {
     throw new UnsupportedOperationException("Not supported yet.");
