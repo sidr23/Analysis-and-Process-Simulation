@@ -775,547 +775,13 @@ public class DMedit
     
     GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
     jPanel1.setLayout(jPanel1Layout);
-    jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGap(236, 236, 236).addComponent(jLabel1)).addGroup(jPanel1Layout.createSequentialGroup().addGap(284, 284, 284).addComponent(jLabel2)).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING, false).addComponent(jLabel41, GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup().addGap(84, 84, 84).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel35).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel85)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel36).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel86)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel40).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel95)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel37).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel87)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel59).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel88)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel60).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel89)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel61).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel90)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel62).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel91)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel38).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 92, 32767).addComponent(jLabel92)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel39).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel93)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel58).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel94)))).addGroup(GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup().addGap(10, 10, 10).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(Back, -2, 88, -2).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(jLabel42).addComponent(jLabel43).addComponent(jLabel44).addComponent(jLabel45).addComponent(jLabel46).addComponent(jLabel47).addComponent(jLabel48).addComponent(jLabel49).addComponent(jLabel50).addComponent(jLabel51).addComponent(jLabel52, -1, -1, 32767).addComponent(jLabel53).addComponent(jLabel57, -1, -1, 32767)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel96, GroupLayout.Alignment.TRAILING).addComponent(jLabel97, GroupLayout.Alignment.TRAILING).addComponent(jLabel98, GroupLayout.Alignment.TRAILING).addComponent(jLabel99, GroupLayout.Alignment.TRAILING).addComponent(jLabel100, GroupLayout.Alignment.TRAILING).addComponent(jLabel101, GroupLayout.Alignment.TRAILING).addComponent(jLabel102, GroupLayout.Alignment.TRAILING).addComponent(jLabel103, GroupLayout.Alignment.TRAILING).addComponent(jLabel104, GroupLayout.Alignment.TRAILING)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(Sand).addComponent(Sand_kg).addComponent(Sand_cost).addComponent(Gravel).addComponent(Gravel_kg).addComponent(Gravel_cost).addComponent(Pebbles).addComponent(Pebbles_kg).addComponent(Pebbles_cost).addComponent(AC).addComponent(AC_kg).addComponent(AC_cost, -1, 136, 32767).addComponent(Media_cost)))))).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(steel_cost_kg).addComponent(Cation_total_cost).addComponent(Anion_total_cost).addComponent(rubber_lining_costm2).addComponent(total_rubber_lining_cost).addComponent(fabrication_cost, -1, 137, 32767).addComponent(fabrication_kg).addComponent(cation_resin_litre).addComponent(cation_resin_cost).addComponent(anion_resin_litre).addComponent(anion_resin_cost))).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGap(128, 128, 128).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel54).addComponent(jLabel55))).addGroup(jPanel1Layout.createSequentialGroup().addGap(141, 141, 141).addComponent(Edit, -2, 100, -2))).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel105).addComponent(jLabel106)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(one_quantity_cost).addComponent(total_dm_cost, -2, 137, -2).addComponent(Delete, -2, 111, -2))).addGroup(jPanel1Layout.createSequentialGroup().addGap(15, 15, 15).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(jLabel4).addComponent(jLabel3).addComponent(jLabel5).addComponent(jLabel6).addComponent(jLabel7).addComponent(jLabel9).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel11).addComponent(jLabel13).addComponent(jLabel15).addComponent(jLabel17).addComponent(jLabel19).addComponent(jLabel21).addComponent(jLabel23).addComponent(jLabel25).addComponent(jLabel27).addComponent(jLabel29).addComponent(jLabel31).addComponent(jLabel33)).addGap(22, 22, 22).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(Camount_of_salt).addComponent(Cresin_capacity).addComponent(Cvolume_of_resin).addComponent(Cresin_height).addComponent(CD_height).addComponent(CD_diameter).addComponent(CD_thickness).addComponent(CD_weight).addComponent(CS_diameter).addComponent(CS_thickness).addComponent(CS_weight).addComponent(Crubber_lining_area, -2, 143, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel65).addComponent(jLabel66).addComponent(jLabel67).addComponent(jLabel68).addComponent(jLabel69).addComponent(jLabel70).addComponent(jLabel71).addComponent(jLabel72).addComponent(jLabel73).addComponent(jLabel74)).addGap(32, 32, 32).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel12).addComponent(jLabel14).addComponent(jLabel16).addComponent(jLabel18).addComponent(jLabel20).addComponent(jLabel22).addComponent(jLabel24).addComponent(jLabel26).addComponent(jLabel28).addComponent(jLabel30).addComponent(jLabel32).addComponent(jLabel34)).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING, false).addComponent(AS_weight, GroupLayout.Alignment.LEADING).addComponent(AS_thickness, GroupLayout.Alignment.LEADING).addComponent(AS_diameter, GroupLayout.Alignment.LEADING).addComponent(AD_weight, GroupLayout.Alignment.LEADING).addComponent(AD_thickness, GroupLayout.Alignment.LEADING).addComponent(AD_diameter, GroupLayout.Alignment.LEADING).addComponent(AD_height, GroupLayout.Alignment.LEADING).addComponent(Aresin_height, GroupLayout.Alignment.LEADING).addComponent(Avolume_of_resin, GroupLayout.Alignment.LEADING).addComponent(Aresin_capacity, GroupLayout.Alignment.LEADING).addComponent(Aamount_of_salt, GroupLayout.Alignment.LEADING).addComponent(Arubber_lining_area, -2, 137, -2))).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGap(136, 136, 136).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(jLabel10).addComponent(company_name, -2, 150, -2).addComponent(product_id, -2, 150, -2).addComponent(date, -2, 150, -2).addComponent(type, -2, 150, -2).addComponent(qty, -2, 150, -2).addComponent(flow_rate, -2, 150, -2).addComponent(operational_hrs, -2, 150, -2))).addComponent(jLabel8)).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel56).addGap(143, 143, 143)).addGroup(jPanel1Layout.createSequentialGroup().addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel64).addComponent(jLabel63)).addGap(0, 0, 32767))))).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel75).addComponent(jLabel76).addComponent(jLabel77).addComponent(jLabel78).addComponent(jLabel79).addComponent(jLabel80).addComponent(jLabel81).addComponent(jLabel82).addComponent(jLabel83).addComponent(jLabel84)))).addContainerGap(55, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(jLabel2).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3).addComponent(company_name, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel4).addComponent(product_id, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel5).addComponent(date, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel6).addComponent(type, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel7).addComponent(qty, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel8).addComponent(flow_rate, -2, -1, -2).addComponent(jLabel63)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel9).addComponent(operational_hrs, -2, -1, -2).addComponent(jLabel64)).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel10).addComponent(jLabel56)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel11).addComponent(jLabel12).addComponent(Camount_of_salt, -2, -1, -2).addComponent(Aamount_of_salt, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel13).addComponent(jLabel14).addComponent(Cresin_capacity, -2, -1, -2).addComponent(Aresin_capacity, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel15).addComponent(jLabel16).addComponent(Cvolume_of_resin, -2, -1, -2).addComponent(Avolume_of_resin, -2, -1, -2).addComponent(jLabel65).addComponent(jLabel75)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel17).addComponent(jLabel18).addComponent(Cresin_height, -2, -1, -2).addComponent(Aresin_height, -2, -1, -2).addComponent(jLabel66).addComponent(jLabel76)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel19).addComponent(jLabel20).addComponent(CD_height, -2, -1, -2).addComponent(AD_height, -2, -1, -2).addComponent(jLabel67).addComponent(jLabel77)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel21).addComponent(jLabel22).addComponent(CD_diameter, -2, -1, -2).addComponent(AD_diameter, -2, -1, -2).addComponent(jLabel68).addComponent(jLabel78)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel23).addComponent(jLabel24).addComponent(CD_thickness, -2, -1, -2).addComponent(AD_thickness, -2, -1, -2).addComponent(jLabel69).addComponent(jLabel79)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel25).addComponent(jLabel26).addComponent(CD_weight, -2, -1, -2).addComponent(AD_weight, -2, -1, -2).addComponent(jLabel70).addComponent(jLabel80)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel27).addComponent(jLabel28).addComponent(CS_diameter, -2, -1, -2).addComponent(AS_diameter, -2, -1, -2).addComponent(jLabel71).addComponent(jLabel81)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel29).addComponent(jLabel30).addComponent(CS_thickness, -2, -1, -2).addComponent(AS_thickness, -2, -1, -2).addComponent(jLabel72).addComponent(jLabel82)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel31).addComponent(jLabel32).addComponent(CS_weight, -2, -1, -2).addComponent(AS_weight, -2, -1, -2).addComponent(jLabel73).addComponent(jLabel83)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel33).addComponent(jLabel34).addComponent(Crubber_lining_area, -2, -1, -2).addComponent(Arubber_lining_area, -2, -1, -2).addComponent(jLabel74).addComponent(jLabel84)).addGap(23, 23, 23).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel35).addComponent(steel_cost_kg, -2, -1, -2).addComponent(jLabel85)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel36).addComponent(Cation_total_cost, -2, -1, -2).addComponent(jLabel86)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel37).addComponent(Anion_total_cost, -2, -1, -2).addComponent(jLabel87)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel59).addComponent(cation_resin_litre, -2, -1, -2).addComponent(jLabel88)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel60).addComponent(cation_resin_cost, -2, -1, -2).addComponent(jLabel89)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel61).addComponent(anion_resin_litre, -2, -1, -2).addComponent(jLabel90)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel62).addComponent(anion_resin_cost, -2, -1, -2).addComponent(jLabel91)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel38).addComponent(rubber_lining_costm2, -2, -1, -2).addComponent(jLabel92)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel39).addComponent(total_rubber_lining_cost, -2, -1, -2).addComponent(jLabel93)).addGap(3, 3, 3).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel58).addComponent(fabrication_kg, -2, -1, -2).addComponent(jLabel94)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel40).addComponent(fabrication_cost, -2, -1, -2).addComponent(jLabel95)).addGap(18, 18, 18).addComponent(jLabel41).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel42).addComponent(Sand, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel43).addComponent(Sand_kg, -2, -1, -2).addComponent(jLabel96)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel44).addComponent(Sand_cost, -2, -1, -2).addComponent(jLabel97)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel45).addComponent(Gravel, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel46).addComponent(Gravel_kg, -2, -1, -2).addComponent(jLabel98)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel47).addComponent(Gravel_cost, -2, -1, -2).addComponent(jLabel99)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel48).addComponent(Pebbles, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel49).addComponent(Pebbles_kg, -2, -1, -2).addComponent(jLabel100)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel50).addComponent(Pebbles_cost, -2, -1, -2).addComponent(jLabel101)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel51).addComponent(AC, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel52).addComponent(AC_kg, -2, -1, -2).addComponent(jLabel102)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel53).addComponent(AC_cost, -2, -1, -2).addComponent(jLabel103)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel57).addComponent(Media_cost, -2, -1, -2).addComponent(jLabel104)).addGap(14, 14, 14).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel54).addComponent(one_quantity_cost, -2, -1, -2).addComponent(jLabel105)).addGap(6, 6, 6).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel55).addComponent(total_dm_cost, -2, -1, -2).addComponent(jLabel106)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(Edit).addComponent(Delete).addComponent(Back)).addContainerGap()));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    jScrollPane1.setViewportView(jPanel1);
-    
+    jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGap(236, 236, 236).addComponent(jLabel1)).addGroup(jPanel1Layout.createSequentialGroup().addGap(284, 284, 284).addComponent(jLabel2)).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING, false).addComponent(jLabel41, GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup().addGap(84, 84, 84).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel35).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel85)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel36).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel86)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel40).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel95)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel37).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel87)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel59).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel88)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel60).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel89)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel61).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel90)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel62).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel91)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel38).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 92, 32767).addComponent(jLabel92)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel39).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel93)).addGroup(jPanel1Layout.createSequentialGroup().addComponent(jLabel58).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel94)))).addGroup(GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup().addGap(10, 10, 10).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(Back, -2, 88, -2).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(jLabel42).addComponent(jLabel43).addComponent(jLabel44).addComponent(jLabel45).addComponent(jLabel46).addComponent(jLabel47).addComponent(jLabel48).addComponent(jLabel49).addComponent(jLabel50).addComponent(jLabel51).addComponent(jLabel52, -1, -1, 32767).addComponent(jLabel53).addComponent(jLabel57, -1, -1, 32767)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel96, GroupLayout.Alignment.TRAILING).addComponent(jLabel97, GroupLayout.Alignment.TRAILING).addComponent(jLabel98, GroupLayout.Alignment.TRAILING).addComponent(jLabel99, GroupLayout.Alignment.TRAILING).addComponent(jLabel100, GroupLayout.Alignment.TRAILING).addComponent(jLabel101, GroupLayout.Alignment.TRAILING).addComponent(jLabel102, GroupLayout.Alignment.TRAILING).addComponent(jLabel103, GroupLayout.Alignment.TRAILING).addComponent(jLabel104, GroupLayout.Alignment.TRAILING)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(Sand).addComponent(Sand_kg).addComponent(Sand_cost).addComponent(Gravel).addComponent(Gravel_kg).addComponent(Gravel_cost).addComponent(Pebbles).addComponent(Pebbles_kg).addComponent(Pebbles_cost).addComponent(AC).addComponent(AC_kg).addComponent(AC_cost, -1, 136, 32767).addComponent(Media_cost)))))).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(steel_cost_kg).addComponent(Cation_total_cost).addComponent(Anion_total_cost).addComponent(rubber_lining_costm2).addComponent(total_rubber_lining_cost).addComponent(fabrication_cost, -1, 137, 32767).addComponent(fabrication_kg).addComponent(cation_resin_litre).addComponent(cation_resin_cost).addComponent(anion_resin_litre).addComponent(anion_resin_cost))).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGap(128, 128, 128).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel54).addComponent(jLabel55))).addGroup(jPanel1Layout.createSequentialGroup().addGap(141, 141, 141).addComponent(Edit, -2, 100, -2))).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel105).addComponent(jLabel106)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(one_quantity_cost).addComponent(total_dm_cost, -2, 137, -2).addComponent(Delete, -2, 111, -2))).addGroup(jPanel1Layout.createSequentialGroup().addGap(15, 15, 15).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(jLabel4).addComponent(jLabel3).addComponent(jLabel5).addComponent(jLabel6).addComponent(jLabel7).addComponent(jLabel9).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel11).addComponent(jLabel13).addComponent(jLabel15).addComponent(jLabel17).addComponent(jLabel19).addComponent(jLabel21).addComponent(jLabel23).addComponent(jLabel25).addComponent(jLabel27).addComponent(jLabel29).addComponent(jLabel31).addComponent(jLabel33)).addGap(22, 22, 22).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(Camount_of_salt).addComponent(Cresin_capacity).addComponent(Cvolume_of_resin).addComponent(Cresin_height).addComponent(CD_height).addComponent(CD_diameter).addComponent(CD_thickness).addComponent(CD_weight).addComponent(CS_diameter).addComponent(CS_thickness).addComponent(CS_weight).addComponent(Crubber_lining_area, -2, 143, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel65).addComponent(jLabel66).addComponent(jLabel67).addComponent(jLabel68).addComponent(jLabel69).addComponent(jLabel70).addComponent(jLabel71).addComponent(jLabel72).addComponent(jLabel73).addComponent(jLabel74)).addGap(32, 32, 32).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel12).addComponent(jLabel14).addComponent(jLabel16).addComponent(jLabel18).addComponent(jLabel20).addComponent(jLabel22).addComponent(jLabel24).addComponent(jLabel26).addComponent(jLabel28).addComponent(jLabel30).addComponent(jLabel32).addComponent(jLabel34)).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING, false).addComponent(AS_weight, GroupLayout.Alignment.LEADING).addComponent(AS_thickness, GroupLayout.Alignment.LEADING).addComponent(AS_diameter, GroupLayout.Alignment.LEADING).addComponent(AD_weight, GroupLayout.Alignment.LEADING).addComponent(AD_thickness, GroupLayout.Alignment.LEADING).addComponent(AD_diameter, GroupLayout.Alignment.LEADING).addComponent(AD_height, GroupLayout.Alignment.LEADING).addComponent(Aresin_height, GroupLayout.Alignment.LEADING).addComponent(Avolume_of_resin, GroupLayout.Alignment.LEADING).addComponent(Aresin_capacity, GroupLayout.Alignment.LEADING).addComponent(Aamount_of_salt, GroupLayout.Alignment.LEADING).addComponent(Arubber_lining_area, -2, 137, -2))).addGroup(jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGap(136, 136, 136).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(jLabel10).addComponent(company_name, -2, 150, -2).addComponent(product_id, -2, 150, -2).addComponent(date, -2, 150, -2).addComponent(type, -2, 150, -2).addComponent(qty, -2, 150, -2).addComponent(flow_rate, -2, 150, -2).addComponent(operational_hrs, -2, 150, -2))).addComponent(jLabel8)).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(jLabel56).addGap(143, 143, 143)).addGroup(jPanel1Layout.createSequentialGroup().addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel64).addComponent(jLabel63)).addGap(0, 0, 32767))))).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel75).addComponent(jLabel76).addComponent(jLabel77).addComponent(jLabel78).addComponent(jLabel79).addComponent(jLabel80).addComponent(jLabel81).addComponent(jLabel82).addComponent(jLabel83).addComponent(jLabel84)))).addContainerGap(55, 32767)));    
+    jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(jLabel2).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3).addComponent(company_name, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel4).addComponent(product_id, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel5).addComponent(date, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel6).addComponent(type, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel7).addComponent(qty, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel8).addComponent(flow_rate, -2, -1, -2).addComponent(jLabel63)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel9).addComponent(operational_hrs, -2, -1, -2).addComponent(jLabel64)).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel10).addComponent(jLabel56)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel11).addComponent(jLabel12).addComponent(Camount_of_salt, -2, -1, -2).addComponent(Aamount_of_salt, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel13).addComponent(jLabel14).addComponent(Cresin_capacity, -2, -1, -2).addComponent(Aresin_capacity, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel15).addComponent(jLabel16).addComponent(Cvolume_of_resin, -2, -1, -2).addComponent(Avolume_of_resin, -2, -1, -2).addComponent(jLabel65).addComponent(jLabel75)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel17).addComponent(jLabel18).addComponent(Cresin_height, -2, -1, -2).addComponent(Aresin_height, -2, -1, -2).addComponent(jLabel66).addComponent(jLabel76)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel19).addComponent(jLabel20).addComponent(CD_height, -2, -1, -2).addComponent(AD_height, -2, -1, -2).addComponent(jLabel67).addComponent(jLabel77)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel21).addComponent(jLabel22).addComponent(CD_diameter, -2, -1, -2).addComponent(AD_diameter, -2, -1, -2).addComponent(jLabel68).addComponent(jLabel78)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel23).addComponent(jLabel24).addComponent(CD_thickness, -2, -1, -2).addComponent(AD_thickness, -2, -1, -2).addComponent(jLabel69).addComponent(jLabel79)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel25).addComponent(jLabel26).addComponent(CD_weight, -2, -1, -2).addComponent(AD_weight, -2, -1, -2).addComponent(jLabel70).addComponent(jLabel80)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel27).addComponent(jLabel28).addComponent(CS_diameter, -2, -1, -2).addComponent(AS_diameter, -2, -1, -2).addComponent(jLabel71).addComponent(jLabel81)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel29).addComponent(jLabel30).addComponent(CS_thickness, -2, -1, -2).addComponent(AS_thickness, -2, -1, -2).addComponent(jLabel72).addComponent(jLabel82)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel31).addComponent(jLabel32).addComponent(CS_weight, -2, -1, -2).addComponent(AS_weight, -2, -1, -2).addComponent(jLabel73).addComponent(jLabel83)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel33).addComponent(jLabel34).addComponent(Crubber_lining_area, -2, -1, -2).addComponent(Arubber_lining_area, -2, -1, -2).addComponent(jLabel74).addComponent(jLabel84)).addGap(23, 23, 23).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel35).addComponent(steel_cost_kg, -2, -1, -2).addComponent(jLabel85)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel36).addComponent(Cation_total_cost, -2, -1, -2).addComponent(jLabel86)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel37).addComponent(Anion_total_cost, -2, -1, -2).addComponent(jLabel87)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel59).addComponent(cation_resin_litre, -2, -1, -2).addComponent(jLabel88)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel60).addComponent(cation_resin_cost, -2, -1, -2).addComponent(jLabel89)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel61).addComponent(anion_resin_litre, -2, -1, -2).addComponent(jLabel90)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel62).addComponent(anion_resin_cost, -2, -1, -2).addComponent(jLabel91)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel38).addComponent(rubber_lining_costm2, -2, -1, -2).addComponent(jLabel92)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel39).addComponent(total_rubber_lining_cost, -2, -1, -2).addComponent(jLabel93)).addGap(3, 3, 3).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel58).addComponent(fabrication_kg, -2, -1, -2).addComponent(jLabel94)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel40).addComponent(fabrication_cost, -2, -1, -2).addComponent(jLabel95)).addGap(18, 18, 18).addComponent(jLabel41).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel42).addComponent(Sand, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel43).addComponent(Sand_kg, -2, -1, -2).addComponent(jLabel96)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel44).addComponent(Sand_cost, -2, -1, -2).addComponent(jLabel97)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel45).addComponent(Gravel, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel46).addComponent(Gravel_kg, -2, -1, -2).addComponent(jLabel98)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel47).addComponent(Gravel_cost, -2, -1, -2).addComponent(jLabel99)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel48).addComponent(Pebbles, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel49).addComponent(Pebbles_kg, -2, -1, -2).addComponent(jLabel100)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel50).addComponent(Pebbles_cost, -2, -1, -2).addComponent(jLabel101)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel51).addComponent(AC, -2, -1, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel52).addComponent(AC_kg, -2, -1, -2).addComponent(jLabel102)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel53).addComponent(AC_cost, -2, -1, -2).addComponent(jLabel103)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel57).addComponent(Media_cost, -2, -1, -2).addComponent(jLabel104)).addGap(14, 14, 14).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel54).addComponent(one_quantity_cost, -2, -1, -2).addComponent(jLabel105)).addGap(6, 6, 6).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel55).addComponent(total_dm_cost, -2, -1, -2).addComponent(jLabel106)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(Edit).addComponent(Delete).addComponent(Back)).addContainerGap()));    
+    jScrollPane1.setViewportView(jPanel1);    
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
     layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jScrollPane1, -1, 907, 32767).addContainerGap()));
-    
-
-
-
-
-
     layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jScrollPane1, -2, 1921, -2).addContainerGap(-1, 32767)));
-    
-
-
-
-
-
-
     pack();
   }
   
@@ -1854,49 +1320,41 @@ public class DMedit
         stmt1.setString(1, product_id.getText());
         stmt1.executeUpdate();
         
-
         String query2 = "DELETE FROM `cation-bed` WHERE Product_id=?;";
         PreparedStatement stmt2 = conn.prepareStatement(query2);
         stmt2.setString(1, product_id.getText());
         stmt2.executeUpdate();
         
-
         String query3 = "DELETE FROM `cation-drum` WHERE Product_id=?;";
         PreparedStatement stmt3 = conn.prepareStatement(query3);
         stmt3.setString(1, product_id.getText());
         stmt3.executeUpdate();
         
-
         String query4 = "DELETE FROM `anion-drum` WHERE Product_id=?;";
         PreparedStatement stmt4 = conn.prepareStatement(query4);
         stmt4.setString(1, product_id.getText());
         stmt4.executeUpdate();
-        
-
+       
         String query5 = "DELETE FROM `cation-shell` WHERE Product_id=?;";
         PreparedStatement stmt5 = conn.prepareStatement(query5);
         stmt5.setString(1, product_id.getText());
         stmt5.executeUpdate();
-        
-
+       
         String query6 = "DELETE FROM `anion-shell` WHERE Product_id=?;";
         PreparedStatement stmt6 = conn.prepareStatement(query6);
         stmt6.setString(1, product_id.getText());
         stmt6.executeUpdate();
-        
-
+       
         String query7 = "DELETE FROM `dm-cation&anion` WHERE Product_id=?;";
         PreparedStatement stmt7 = conn.prepareStatement(query7);
         stmt7.setString(1, product_id.getText());
         stmt7.executeUpdate();
         
-
         String query8 = "DELETE FROM `dm-filter-media` WHERE Product_id=?;";
         PreparedStatement stmt8 = conn.prepareStatement(query8);
         stmt8.setString(1, product_id.getText());
         stmt8.executeUpdate();
         
-
         String query9 = "DELETE FROM `anion-bed` WHERE Product_id=?;";
         PreparedStatement stmt9 = conn.prepareStatement(query9);
         stmt9.setString(1, product_id.getText());
@@ -2001,7 +1459,6 @@ public class DMedit
         CS_weight.setText(rs3.getString("CS_wt"));
       }
       
-
       String query4 = "SELECT * FROM `anion-bed` WHERE Product_id=?";
       ps = conn.prepareStatement(query4);
       ps.setString(1, input);
@@ -2080,8 +1537,7 @@ public class DMedit
     {
       JOptionPane.showMessageDialog(null, "Error in connection" + e);
     }
-  }
-  
+  }  
   private JLabel jLabel80;
   private JLabel jLabel81;
   private JLabel jLabel82;
@@ -2110,8 +1566,6 @@ public class DMedit
       Logger.getLogger(DMedit.class.getName()).log(Level.SEVERE, null, ex);
     }
     
-
-
     EventQueue.invokeLater(new Runnable()
     {
       public void run()
@@ -2119,8 +1573,7 @@ public class DMedit
         new DMedit("kl001").setVisible(true);
       }
     });
-  }
-  
+  }  
   private JLabel jLabel9;
   private JLabel jLabel90;
   private JLabel jLabel91;
