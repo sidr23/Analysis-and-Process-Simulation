@@ -61,79 +61,26 @@ public class Check_password extends javax.swing.JFrame
     GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
     jPanel1.setLayout(jPanel1Layout);
     jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addGap(42, 42, 42).addComponent(jLabel1)).addGroup(jPanel1Layout.createSequentialGroup().addGap(67, 67, 67).addComponent(jLabel2)).addGroup(GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup().addComponent(jLabel3).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(password, -2, 155, -2).addGroup(GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup().addComponent(enter, -2, 77, -2).addGap(41, 41, 41))))).addContainerGap(28, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(jLabel2).addGap(25, 25, 25).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3).addComponent(password, -2, -1, -2)).addGap(18, 18, 18).addComponent(enter).addContainerGap()));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
     layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jPanel1, -1, -1, 32767).addContainerGap()));
-    
-
-
-
-
-
     layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jPanel1, -2, -1, -2).addContainerGap(-1, 32767)));
-    
-
-
-
-
-
-
     pack();
   }
   
   private void enterActionPerformed(java.awt.event.ActionEvent evt) {
-    boolean present = false;
-    
-    String pass = new String(password.getPassword());
-    
+    boolean present = false;    
+    String pass = new String(password.getPassword());    
     if (pass.equals("")) {
       javax.swing.JOptionPane.showMessageDialog(null, "enter the password");
-
     }
     else
     {
       try
       {
-
         Class.forName("com.mysql.jdbc.Driver");
-        java.sql.Connection conn = java.sql.DriverManager.getConnection("jdbc:mysql://localhost/project", "factorengg", "thane");
-        
+        java.sql.Connection conn = java.sql.DriverManager.getConnection("jdbc:mysql://localhost/project", "factorengg", "thane");        
         String query1 = "SELECT * FROM register;";
         java.sql.Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(query1);
@@ -152,14 +99,11 @@ public class Check_password extends javax.swing.JFrame
           setVisible(false);
           DataRetrival dr = new DataRetrival();
           dr.setVisible(true);
-
         }
         else
         {
           javax.swing.JOptionPane.showMessageDialog(null, "Incorrect password");
         }
-        
-
       }
       catch (ClassNotFoundException|java.sql.SQLException e)
       {
@@ -167,14 +111,6 @@ public class Check_password extends javax.swing.JFrame
       }
     }
   }
-  
-
-
-
-
-
-
-
   public static void main(String[] args)
   {
     try
@@ -195,8 +131,6 @@ public class Check_password extends javax.swing.JFrame
       Logger.getLogger(Check_password.class.getName()).log(Level.SEVERE, null, ex);
     }
     
-
-
     java.awt.EventQueue.invokeLater(new Runnable() {
       public void run() {
         new Check_password().setVisible(true);
