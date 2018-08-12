@@ -25,13 +25,6 @@ public class SetData extends javax.swing.JFrame
     initComponents();
   }
   
-
-
-
-
-
-
-
   private void initComponents()
   {
     jPanel1 = new javax.swing.JPanel();
@@ -77,77 +70,11 @@ public class SetData extends javax.swing.JFrame
     GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
     jPanel1.setLayout(jPanel1Layout);
     jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING, false).addComponent(jLabel5, GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel3).addComponent(jLabel4)).addGap(68, 68, 68).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(new_pass).addComponent(old_pass).addComponent(confirm, -2, 115, -2))).addGroup(jPanel1Layout.createSequentialGroup().addGap(66, 66, 66).addComponent(skip, -2, 76, -2).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(enter, -2, 76, -2))).addGroup(jPanel1Layout.createSequentialGroup().addGap(66, 66, 66).addComponent(jLabel1)).addGroup(jPanel1Layout.createSequentialGroup().addGap(106, 106, 106).addComponent(jLabel2))).addContainerGap(80, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addComponent(jLabel2, -2, 14, -2).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3).addComponent(old_pass, -2, -1, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel4).addComponent(new_pass, -2, -1, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel5).addComponent(confirm, -2, -1, -2)).addGap(26, 26, 26).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(enter).addComponent(skip)).addContainerGap(67, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addComponent(jLabel2, -2, 14, -2).addGap(18, 18, 18).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3).addComponent(old_pass, -2, -1, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel4).addComponent(new_pass, -2, -1, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel5).addComponent(confirm, -2, -1, -2)).addGap(26, 26, 26).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(enter).addComponent(skip)).addContainerGap(67, 32767)));   
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
     layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(19, 19, 19).addComponent(jPanel1, -1, -1, 32767).addContainerGap()));
-    
-
-
-
-
-
     layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(22, 22, 22).addComponent(jPanel1, -1, -1, 32767).addContainerGap()));
-    
-
-
-
-
-
-
     pack();
   }
   
@@ -163,13 +90,11 @@ public class SetData extends javax.swing.JFrame
       javax.swing.JOptionPane.showMessageDialog(null, "enter the new password");
     } else if (con.equals("")) {
       javax.swing.JOptionPane.showMessageDialog(null, "enter the confirm password");
-
     }
     else if (pass.equals(con))
     {
       try
       {
-
         Class.forName("com.mysql.jdbc.Driver");
         java.sql.Connection conn = java.sql.DriverManager.getConnection("jdbc:mysql://localhost/project", "factorengg", "thane");
         
@@ -201,21 +126,17 @@ public class SetData extends javax.swing.JFrame
         {
           javax.swing.JOptionPane.showMessageDialog(null, "Incorrect password");
         }
-        
-
       }
       catch (ClassNotFoundException|java.sql.SQLException e)
       {
         javax.swing.JOptionPane.showMessageDialog(null, "Error in connection");
-      }
-      
+      }      
     }
     else {
       javax.swing.JOptionPane.showMessageDialog(null, "the new password and confirm password doesnot matches");
     }
   }
   
-
   private void skipActionPerformed(java.awt.event.ActionEvent evt)
   {
     setVisible(false);
@@ -223,12 +144,6 @@ public class SetData extends javax.swing.JFrame
     menu.setVisible(true);
   }
   
-
-
-
-
-
-
   public static void main(String[] args)
   {
     try
@@ -249,8 +164,6 @@ public class SetData extends javax.swing.JFrame
       java.util.logging.Logger.getLogger(SetData.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     }
     
-
-
     java.awt.EventQueue.invokeLater(new Runnable() {
       public void run() {
         new SetData().setVisible(true);
