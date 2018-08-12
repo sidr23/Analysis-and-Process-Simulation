@@ -18,13 +18,6 @@ public class BatchReactor extends javax.swing.JFrame
     setDefaultCloseOperation(2);
   }
   
-
-
-
-
-
-
-
   private void initComponents()
   {
     jLabel1 = new JLabel();
@@ -37,28 +30,9 @@ public class BatchReactor extends javax.swing.JFrame
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
     layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addContainerGap(-1, 32767)));
-    
-
-
-
-
-
     layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1).addContainerGap(-1, 32767)));
-    
-
-
-
-
-
-
     pack();
   }
-  
-
-
-
-
-
 
   public static void main(String[] args)
   {
@@ -80,8 +54,6 @@ public class BatchReactor extends javax.swing.JFrame
       Logger.getLogger(BatchReactor.class.getName()).log(Level.SEVERE, null, ex);
     }
     
-
-
     java.awt.EventQueue.invokeLater(new Runnable() {
       public void run() {
         new BatchReactor().setVisible(true);
