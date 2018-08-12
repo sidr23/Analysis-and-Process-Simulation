@@ -121,79 +121,15 @@ public class Process_Simulation2 extends javax.swing.JFrame
     });
     GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
     jPanel1.setLayout(jPanel1Layout);
-    jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel2).addComponent(jLabel3).addComponent(jLabel4)).addGap(29, 29, 29).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(CA1).addComponent(a11).addComponent(a22, -2, 75, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 69, 32767).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(Enter, -1, 73, 32767).addComponent(Back, -1, -1, 32767).addComponent(Image, -1, -1, 32767)).addContainerGap(85, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel2).addComponent(CA1, -2, -1, -2).addComponent(Enter)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3).addComponent(a11, -2, -1, -2).addComponent(Image)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel4).addComponent(a22, -2, -1, -2).addComponent(Back)).addGap(38, 38, 38)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    jPanel1Layout.setHorizontalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel2).addComponent(jLabel3).addComponent(jLabel4)).addGap(29, 29, 29).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(CA1).addComponent(a11).addComponent(a22, -2, 75, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 69, 32767).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(Enter, -1, 73, 32767).addComponent(Back, -1, -1, 32767).addComponent(Image, -1, -1, 32767)).addContainerGap(85, 32767)));    
+    jPanel1Layout.setVerticalGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel1Layout.createSequentialGroup().addContainerGap().addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel2).addComponent(CA1, -2, -1, -2).addComponent(Enter)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel3).addComponent(a11, -2, -1, -2).addComponent(Image)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel4).addComponent(a22, -2, -1, -2).addComponent(Back)).addGap(38, 38, 38)));    
     output.setColumns(20);
     output.setRows(5);
-    jScrollPane1.setViewportView(output);
-    
+    jScrollPane1.setViewportView(output);    
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
-    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(191, 191, 191).addComponent(jLabel1)).addGroup(layout.createSequentialGroup().addGap(18, 18, 18).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jScrollPane1, -2, 419, -2).addComponent(jPanel1, -2, -1, -2)))).addContainerGap(21, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
+    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(191, 191, 191).addComponent(jLabel1)).addGroup(layout.createSequentialGroup().addGap(18, 18, 18).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jScrollPane1, -2, 419, -2).addComponent(jPanel1, -2, -1, -2)))).addContainerGap(21, 32767)));   
     layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(19, 19, 19).addComponent(jLabel1).addGap(18, 18, 18).addComponent(jPanel1, -2, -1, -2).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED).addComponent(jScrollPane1, -1, 199, 32767).addContainerGap()));
-    
-
-
-
-
-
-
-
-
-
-
     pack();
   }
   
@@ -308,8 +244,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     TDOT = ((k1 * CA * 40000.0D + k2 * CB * 50000.0D) / 50.0D - qm / 2120.0D);
     TMDOT = ((qm - qj) / 578.7647999999999D);
     
-
-
     time += delta;
     CA += CADOT * delta;
     CB += CBDOT * delta;
@@ -331,14 +265,10 @@ public class Process_Simulation2 extends javax.swing.JFrame
       x = endProgram();
     }
     
-
     if (time >= tflag)
     {
-
-
       x = display();
-    }
-    
+    }    
     return x;
   }
   
@@ -354,7 +284,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     return x;
   }
   
-
   public boolean temPre()
   {
     qj = (-56500.0D * (TJ - TM) / 60.0D);
@@ -370,7 +299,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     return x;
   }
   
-
   public boolean pressureCalc()
   {
     Pj = Math.exp(BVP + AVP / (TJ + 460.0D));
@@ -378,7 +306,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     boolean x; boolean x; if (loop > 50)
     {
       x = display();
-
     }
     else
     {
@@ -401,7 +328,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
             TJ -= DTJ;
             flagp = 1;
             x = pressureCalc();
-
           }
           else
           {
@@ -419,10 +345,7 @@ public class Process_Simulation2 extends javax.swing.JFrame
   {
     if (flagp >= 0)
     {
-
-
-
-      DTJ /= 2.0D;
+    DTJ /= 2.0D;
     }
     TJ += DTJ;
     flagm = 1;
@@ -430,7 +353,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     return x;
   }
   
-
   public boolean display()
   {
     try
@@ -460,9 +382,7 @@ public class Process_Simulation2 extends javax.swing.JFrame
         series7.add(time, TJ);
         series8.add(time, qj);
         series9.add(time, qm);
-      }
-      
-
+      }      
     }
     catch (Exception e)
     {
@@ -497,8 +417,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     frame1.setVisible(true);
     frame1.setSize(500, 500);
     
-
-
     XYSeriesCollection dataset2 = new XYSeriesCollection();
     dataset2.addSeries(series5);
     JFreeChart chart2 = ChartFactory.createXYLineChart("T-TM-TJ value", "Time", "T-TM-TJ", dataset2, PlotOrientation.VERTICAL, true, false, false);
@@ -511,7 +429,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     frame2.setVisible(true);
     frame2.setSize(500, 500);
     
-
     XYSeriesCollection dataset3 = new XYSeriesCollection();
     dataset3.addSeries(series8);
     JFreeChart chart3 = ChartFactory.createXYLineChart("Qj value", "Time", "Qj", dataset3, PlotOrientation.VERTICAL, true, false, false);
@@ -520,7 +437,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     frame3.setVisible(true);
     frame3.setSize(500, 500);
     
-
     XYSeriesCollection dataset4 = new XYSeriesCollection();
     dataset4.addSeries(series9);
     JFreeChart chart4 = ChartFactory.createXYLineChart("Qm value", "Time", "Qm", dataset4, PlotOrientation.VERTICAL, true, false, false);
@@ -529,7 +445,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
     frame4.setVisible(true);
     frame4.setSize(500, 500);
     
-
     return false;
   }
   
@@ -559,8 +474,6 @@ public class Process_Simulation2 extends javax.swing.JFrame
       Logger.getLogger(Process_Simulation2.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     }
     
-
-
     java.awt.EventQueue.invokeLater(new Runnable() {
       public void run() {
         new Process_Simulation2().setVisible(true);
