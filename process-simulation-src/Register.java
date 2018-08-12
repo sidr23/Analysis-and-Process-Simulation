@@ -73,59 +73,13 @@ public class Register extends javax.swing.JFrame
     
     GroupLayout layout = new GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
-    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(39, 39, 39).addComponent(jLabel1, -2, 328, -2)).addGroup(layout.createSequentialGroup().addGap(30, 30, 30).addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(Register).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(jLabel4).addComponent(jLabel3).addComponent(jLabel2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(username).addComponent(password).addComponent(confirm_password, -1, 134, 32767)))))).addContainerGap(33, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1, -2, 35, -2).addGap(38, 38, 38).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel2, -2, 29, -2).addComponent(username, -2, 29, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(jLabel3, -1, -1, 32767).addComponent(password, -1, 32, 32767)).addGap(1, 1, 1).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel4, -2, 38, -2).addGroup(layout.createSequentialGroup().addGap(4, 4, 4).addComponent(confirm_password, -2, 34, -2))).addGap(18, 18, 18).addComponent(Register).addContainerGap(71, 32767)));
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addGap(39, 39, 39).addComponent(jLabel1, -2, 328, -2)).addGroup(layout.createSequentialGroup().addGap(30, 30, 30).addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(Register).addGroup(layout.createSequentialGroup().addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(jLabel4).addComponent(jLabel3).addComponent(jLabel2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(username).addComponent(password).addComponent(confirm_password, -1, 134, 32767)))))).addContainerGap(33, 32767)));    
+    layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap().addComponent(jLabel1, -2, 35, -2).addGap(38, 38, 38).addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jLabel2, -2, 29, -2).addComponent(username, -2, 29, -2)).addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING, false).addComponent(jLabel3, -1, -1, 32767).addComponent(password, -1, 32, 32767)).addGap(1, 1, 1).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(jLabel4, -2, 38, -2).addGroup(layout.createSequentialGroup().addGap(4, 4, 4).addComponent(confirm_password, -2, 34, -2))).addGap(18, 18, 18).addComponent(Register).addContainerGap(71, 32767)));   
     pack();
   }
   
   private void RegisterActionPerformed(java.awt.event.ActionEvent evt) {
-    boolean present = false;
-    
+    boolean present = false;    
     String user = username.getText();
     String pass = new String(password.getPassword());
     String confirm = new String(confirm_password.getPassword());
@@ -135,16 +89,13 @@ public class Register extends javax.swing.JFrame
       JOptionPane.showMessageDialog(null, "enter the password");
     } else if (confirm.equals("")) {
       JOptionPane.showMessageDialog(null, "enter the confirm password");
-
     }
     else if (pass.equals(confirm))
     {
       try
       {
-
         Class.forName("com.mysql.jdbc.Driver");
-        java.sql.Connection conn = java.sql.DriverManager.getConnection("jdbc:mysql://localhost/project", "factorengg", "thane");
-        
+        java.sql.Connection conn = java.sql.DriverManager.getConnection("jdbc:mysql://localhost/project", "factorengg", "thane");        
         String query1 = "SELECT * FROM register;";
         java.sql.Statement stmt = conn.createStatement();
         java.sql.ResultSet rs = stmt.executeQuery(query1);
@@ -176,21 +127,12 @@ public class Register extends javax.swing.JFrame
       catch (ClassNotFoundException|java.sql.SQLException e)
       {
         JOptionPane.showMessageDialog(null, "Error in connection");
-      }
-      
+      }      
     }
     else {
       JOptionPane.showMessageDialog(null, "Password does not match");
     }
   }
-  
-
-
-
-
-
-
-
 
   public static void main(String[] args)
   {
@@ -206,8 +148,6 @@ public class Register extends javax.swing.JFrame
       java.util.logging.Logger.getLogger(Register.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     }
     
-
-
     java.awt.EventQueue.invokeLater(new Runnable()
     {
       public void run() {
